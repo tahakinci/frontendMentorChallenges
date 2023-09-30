@@ -134,28 +134,30 @@ body {
   background-color: var(--clr-primary-400);
 }
 
-.score-container button.active {
+.score-container .button.active {
   background-color: var(--clr-primary-400);
   color: var(--clr--neutral-100);
 }
-
 .score-container {
   display: flex;
   justify-content: space-between;
 }
 
-.submit-box {
+.active {
   display: none;
 }
 
-.button {
+.submit-box {
+}
+
+.submit-button {
   background-color: var(--clr-primary-400);
   color: var(--clr--neutral-100);
   padding: 0.5rem;
   border-radius: 2rem;
 }
 
-.button:is(:hover, :focus) {
+.submit-button:is(:hover, :focus) {
   background-color: var(--clr--neutral-100);
   color: var(--clr-primary-400);
 }

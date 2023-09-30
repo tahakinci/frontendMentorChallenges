@@ -1,5 +1,5 @@
 let card = document.querySelector(".score-box");
-let cardBtn = document.querySelector(".button");
+let cardBtn = document.querySelector(".submit-button");
 let cardNums = document
   .querySelector(".score-container")
   .querySelectorAll("button");
