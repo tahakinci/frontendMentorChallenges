@@ -1,10 +1,11 @@
-let card = document.querySelector(".score-box");
-let cardBtn = document.querySelector(".submit-button");
-let cardNums = document
+const card = document.querySelector(".score-box");
+const cardBtn = document.querySelector(".submit-button");
+const cardNums = document
   .querySelector(".score-container")
   .querySelectorAll("button");
-let selectNum = document.querySelector(".selected-score");
-let num = "";
+const submitBox = document.querySelector(".submit-box");
+const selectNum = document.querySelector(".selected-score");
+const num = "";
 
 cardNums.forEach((btn) => {
   btn.addEventListener("click", (e) => {
